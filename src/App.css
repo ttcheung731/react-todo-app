@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.app {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.app h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #1f2937;
+}
+
+.app input {
+  font-size: 16px;
+  padding: 10px 14px;
+  width: 250px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  margin-right: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.app button {
+  font-size: 16px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  background-color: #7ba8f1;  
+  color: white;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  transition: background 0.3s ease;
+}
+
+.app button:hover {
+  background: linear-gradient(135deg, #2563eb, #4f46e5); /* gradient on hover */
+}
+
+
+.app ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+
+
+.app ol {
+  list-style: decimal;
+  padding-left: 28px;   /* space for the numbers */
+  margin-top: 50px;
+}
+
+.job {
+        
+  list-style-position: outside; /* keep the number outside */
+}
+
+.job-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.job.hovered {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+
+.job-text {
+  flex: 1;
+  text-align: left;
+}
+
+.controls {
+  display: flex;
+  gap: 6px;
+}
+
+.controls button {
+  cursor: pointer;
+}
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
