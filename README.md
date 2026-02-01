@@ -1,16 +1,35 @@
 # React + Vite
+Front End (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Add new tasks with validation (empty inputs prevented)
+2. Delete tasks dynamically
+3. Real-time UI updates using React state
+4. Audio feedback on add/delete actions
+5. Clean, responsive UI with modern CSS
+6. Component-based architecture using functional components and hooks
+7. Rearrange tasks 
 
-Currently, two official plugins are available:
+Back End (Node.js & Express)
+1. RESTful API for task management
+2. Create and retrieve tasks via HTTP requests
+3. Separation of routes and server logic
+4. Environment variable usage for configuration
+5. Development workflow using nodemon
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Tech Stack
 
-## React Compiler
+Front End: React, JavaScript (ES6+), CSS, Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Back End: Node.js, Express.js, REST APIs
 
-## Expanding the ESLint configuration
+Tools & Practices: Git & GitHub (version control), Modular code structure, Debugging across front end and back end, API testing using browser / console logs
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+▶️ How to Run the Project Locally
+Front End
+npm install
+npm run dev
+
+Back End
+npm install
+npm run dev
+
